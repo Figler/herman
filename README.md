@@ -6,36 +6,17 @@ This is simple bash script that will allow you to type 'herman' into a console f
 
 These instructions will let you 'herman' on your local machine.
 
-### Prerequisites
-
-* You must have a bin folder in your HOME directory. If not, make one. 
-
-```
-$ cd
-```
-
-```
-$ mkdir bin
-```
-
-* herman must also be within '/bin' 
-
 ### Installing
 
 ```
-$ cd bin
+$ cd herman
 ```
-
-
-```
-$ export PATH=$PATH":$HOME/bin"
-```
-
-
 ```
 $ chmod +x herman
 ```
-
+```
+$ cp herman /usr/local/bin
+```
 ```
 $ herman
 ```
